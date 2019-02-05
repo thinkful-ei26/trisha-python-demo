@@ -53,7 +53,19 @@ Project Ideas
 
 - A keyboard controlled game using Pygame, I got a couple of ideas like navigating scenes to collect things, managing the state, and using a sprite image. However, there's a bug on MacOS Mojave when it comes to rendering the GUI. 
     - Gunslinger octupus, you are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
+
+  <img src="assets/octogun.png" alt="OctoGun" width="400px">
+  
     - You are a dog. You need to collect certain things for your master so you can be a good boy to get your treat. For example, you should collect 3 hot dogs or a pair of matching socks. 
+
+  <img src="assets/dog.png" alt="Good Dog" width="400px">
+
     - You are a hermit crab and you want to swap your shell for a better one. You must fulfill the requests of other hermit crabs by collecting items so  you can trade-up your shell with them
+
+  <img src="assets/hermit.png" alt="Good Dog" width="400px">
+
 - If the Pygame doesn't work, I'll probably do a web based app that will help you record a list of **Beautiful Memories**. There could be a game where you can click on a button, an algorithm picks a random memory bank and you have to draw a picture based off on that.
 - But because of the short week, I might just make up a list of words like (pig, cat, dog, mouse) and have the person draw an image of the animal. 
+- Or I can do colors and the user has to draw something of that color. 
+
+  <img src="assets/pig.png" alt="Pig" width="400px">
