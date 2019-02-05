@@ -49,7 +49,7 @@ Attempt to create the most basic Pygame
 :beetle: **DRATS! BUGS!** :beetle: (update Tue, 2/5/19)
 
 - Known issue with macOS Mojave, game not rendering [Graphical Overlay Bug](https://github.com/pygame/pygame/issues/555)
-- Fixed just have to use `python3 file_url` to initiate 
+- :white_check_mark: Fixed just have to use `python3 file_url` to initiate 
 
 
 ### Step 5: 
@@ -63,9 +63,9 @@ Goals:
 
 - :octopus: **Octopus Delivery Service** :octopus: | You are an octopus whose job is to deliver packages. You must successfully navigate the seafloor, evade all sharks and eels to collect and deliver packages to your customers.
 
-  <img src="assets/delivery.png" alt="Octopus Delivery Service" width="400px">
+  <img src="assets/delivery.png" alt="Octopus Delivery Service" width="600px">
 
-- :octopus: **OctoGun: Gunslinger Octupus** :octopus: | You are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
+- :gun: **OctoGun: Gunslinger Octupus** :gun: | You are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
 
   <img src="assets/octogun.png" alt="OctoGun" width="400px">
 
