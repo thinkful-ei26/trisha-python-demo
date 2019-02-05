@@ -1,4 +1,5 @@
-# Python Unit 1
+# Python Unit 1 (Thinkful Curriculum)
+[Start Thinking Like a Coder](https://courses.thinkful.com/pip-001v3/assignment/1.1.3)
 
 ## Algorithm #1
 Bubble sort

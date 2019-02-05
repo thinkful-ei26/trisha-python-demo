@@ -46,23 +46,34 @@ Install extensions on VS Code. This is mainly:
 Attempt to create the most basic Pygame
 - [Python Programming Tutorials By Tech With Tim](https://www.youtube.com/watch?v=OFrLs22MDAw&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm)
 
-:beetle: **DRATS! BUGS!** :beetle:
+:beetle: **DRATS! BUGS!** :beetle: (update Tue, 2/5/19)
 
-- Known issue with MacOS Mojave, game not rendering [Graphical Overlay Bug](https://github.com/pygame/pygame/issues/555)
+- Known issue with macOS Mojave, game not rendering [Graphical Overlay Bug](https://github.com/pygame/pygame/issues/555)
+- Fixed just have to use `python3 file_url` to initiate 
+
 
 ### Step 5: 
-Project Ideas
 
-- A keyboard controlled game using Pygame, I got a couple of ideas like navigating scenes to collect things, managing the state, and using a sprite image. However, there's a bug on MacOS Mojave when it comes to rendering the GUI. 
-    - :octopus: OctoGun: Gunslinger Octupus :octopus: you are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
+PyGame Project Ideas
+
+Goals: 
+- Manage state, controls, & collision using the PyGame physics engine
+- Use scenes if possible
+- Use open-source sprites if possible, but static images easier for now
+
+- :octopus: **Octopus Delivery Service** :octopus: | You are an octopus whose job is to deliver packages. You must successfully navigate the seafloor, evade all sharks and eels to collect and deliver packages to your customers.
+
+  <img src="assets/delivery.png" alt="Octopus Delivery Service" width="400px">
+
+- :octopus: **OctoGun: Gunslinger Octupus** :octopus: | You are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
 
   <img src="assets/octogun.png" alt="OctoGun" width="400px">
-  
-    - :dog: You are a dog. :dog: You need to collect certain things for your master to earn the title of a good boy and to get your treat. For example, you should collect 3 hot dogs or a pair of matching socks. 
+
+- :dog: You are a dog. :dog: You need to collect certain things for your master to earn the title of a good boy and to get your treat. For example, you should collect 3 hot dogs or a pair of matching socks. 
 
   <img src="assets/dog.png" alt="Good Dog" width="400px">
 
-    - You are a :snail: hermit crab :snail: and you want to swap your shell for a better one. You must fulfill the requests of other hermit crabs by collecting items so  you can trade-up your shell with them
+- You are a :snail: hermit crab :snail: and you want to swap your shell for a better one. You must fulfill the requests of other hermit crabs by collecting items so  you can trade-up your shell with them
 
   <img src="assets/hermit.png" alt="Good Dog" width="400px">
 
