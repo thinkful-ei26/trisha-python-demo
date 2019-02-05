@@ -1,6 +1,6 @@
 # Python Flex Week 
 
-Why Python? Some of the JavaScript coding challenges I've tried before heavily relied on precise math calculations. Imagine my surprise when I found out that numbers don't work well in JavaScript. I heard good things about Python and it's advantages when working with data and math. So decided to give it a try. Plus, the girls that I co-teach in Boston are also learning some basic Python to make a game and to command a lego robot. Definately a plus if I'm able to assist them. 
+Why Python? Some of the JavaScript coding challenges I've tried before heavily relied on precise math calculations. Imagine my surprise when I found out that numbers don't work well in JavaScript. I heard good things about Python and it's advantages when working with data and math. So I decided to give Python a try. Plus, the girls that I co-teach at Girls Who Code Boston are also learning some basic Python to make a game and to command a lego robot. Definately a plus if I'm able to assist them. 
 
 ## Quick Links
 1. [Python Demo Start](python_demo.py)
@@ -10,9 +10,11 @@ Why Python? Some of the JavaScript coding challenges I've tried before heavily r
 5. [Fizz Buzz](fizzbuzz.py)
 
 ## Dev Instructions
-- Requirements: Python, an IDE
-- Clone this repo into your directory of choice
-- You can run a specific file by changing directory to the current directory `cd :directorypath` and entering the command python :directorypath. Example:
+- Requirements: Python & an IDE (like VS Code or Atom)
+- Clone this repo into your directory of choice:`git clone https://github.com/thinkful-ei26/trisha-python-demo.git`
+- You can run a specific file by changing directory to the current directory `cd :directorypath` and entering the command `python :directorypath`. 
+
+Example:
 
 ```bash
 user@trisha:~/projects/python$ python fizzbuzz.py
@@ -44,7 +46,7 @@ Install extensions on VS Code. This is mainly:
 Attempt to create the most basic Pygame
 - [Python Programming Tutorials By Tech With Tim](https://www.youtube.com/watch?v=OFrLs22MDAw&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm)
 
-**DRATS! BUGS!**
+:beetle: **DRATS! BUGS!** :beetle:
 
 - Known issue with MacOS Mojave, game not rendering [Graphical Overlay Bug](https://github.com/pygame/pygame/issues/555)
 
@@ -52,20 +54,23 @@ Attempt to create the most basic Pygame
 Project Ideas
 
 - A keyboard controlled game using Pygame, I got a couple of ideas like navigating scenes to collect things, managing the state, and using a sprite image. However, there's a bug on MacOS Mojave when it comes to rendering the GUI. 
-    - Gunslinger octupus, you are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
+    - :octopus: OctoGun: Gunslinger Octupus :octopus: you are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
 
   <img src="assets/octogun.png" alt="OctoGun" width="400px">
   
-    - You are a dog. You need to collect certain things for your master so you can be a good boy to get your treat. For example, you should collect 3 hot dogs or a pair of matching socks. 
+    - :dog: You are a dog. :dog: You need to collect certain things for your master to earn the title of a good boy and to get your treat. For example, you should collect 3 hot dogs or a pair of matching socks. 
 
   <img src="assets/dog.png" alt="Good Dog" width="400px">
 
-    - You are a hermit crab and you want to swap your shell for a better one. You must fulfill the requests of other hermit crabs by collecting items so  you can trade-up your shell with them
+    - You are a :snail: hermit crab :snail: and you want to swap your shell for a better one. You must fulfill the requests of other hermit crabs by collecting items so  you can trade-up your shell with them
 
   <img src="assets/hermit.png" alt="Good Dog" width="400px">
 
-- If the Pygame doesn't work, I'll probably do a web based app that will help you record a list of **Beautiful Memories**. There could be a game where you can click on a button, an algorithm picks a random memory bank and you have to draw a picture based off on that.
-- But because of the short week, I might just make up a list of words like (pig, cat, dog, mouse) and have the person draw an image of the animal. 
-- Or I can do colors and the user has to draw something of that color. 
+### Backup
+- If the Pygame doesn't work because of the rendering bug on Mojave, I'll probably do a web based app that will help you record a list of **Beautiful Memories**. There could be a game where you can click on a button, an algorithm picks a random memory bank and you have to draw a picture based off on that.
+- But because of the short week, I might just make up a list of words like (pig, cat, dog, book, apple, pen) and have the person draw an image of the animal or thing. 
+- Or I can do random color generator and the user has to draw something of that color. 
+
+**Tech Stack:** Python with tkinter if pygame doesn't work.
 
   <img src="assets/pig.png" alt="Pig" width="400px">
