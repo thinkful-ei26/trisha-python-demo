@@ -22,7 +22,7 @@ user@trisha:~/projects/python$ python fizzbuzz.py
 
 ## How to get started?
 
-### Step 1: 
+### Step 1: Set-up environment
 My environment is already optimized for MacOS and VS Code. Here's how I got started: 
 
 - Check to see if you have Python already installed via command `Python3 --version`
@@ -30,7 +30,7 @@ My environment is already optimized for MacOS and VS Code. Here's how I got star
 - Run `which python` to check that the path is something like `/usr/local/bin/python`
 - If you don't have Python installed a.k.a. nothing returned or there was an error when you typed in `Python3 --version` then you can enter `brew install python3`
 
-### Step 2: 
+### Step 2: Optimize environment
 Install extensions on VS Code. This is mainly:
 
 - Python
@@ -38,11 +38,11 @@ Install extensions on VS Code. This is mainly:
 - Code Runner (run a script file via CTRL + ALT + N)
 - Pylinter 
 
-### Step 3:  
+### Step 3: Study Python Fundamentals 
 - Follow along this awesome free book by **Allen D. Downey** [Think Python: How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython2/html/index.html)
 - Supplemental video [edureka!](https://www.youtube.com/watch?v=NKVOjPHfiSA&t=566s)
 
-### Step 4:  
+### Step 4: Explore Pygame
 Attempt to create the most basic Pygame
 - [Python Programming Tutorials By Tech With Tim](https://www.youtube.com/watch?v=OFrLs22MDAw&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm)
 
@@ -52,18 +52,16 @@ Attempt to create the most basic Pygame
 - :white_check_mark: Fixed just have to use `python3 file_url` to initiate 
 
 
-### Step 5: 
+### Step 5: PyGame Project Ideas
 
-PyGame Project Ideas
-
-Goals: 
+**Goals:**
 - Manage state, controls, & collision using the PyGame physics engine
 - Use scenes if possible
 - Use open-source sprites if possible, but static images easier for now
 
 - :octopus: **Octopus Delivery Service** :octopus: | You are an octopus whose job is to deliver packages. You must successfully navigate the seafloor, evade all sharks and eels to collect and deliver packages to your customers.
 
-  <img src="assets/delivery.png" alt="Octopus Delivery Service" width="600px">
+  <img src="assets/delivery.png" alt="Octopus Delivery Service" width="800px">
 
 - :gun: **OctoGun: Gunslinger Octupus** :gun: | You are an octopus who's got some skill with the gun. You must successfully shoot all sharks, eels, and dolphins before they get too close to you.
 
